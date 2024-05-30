@@ -1,0 +1,1050 @@
+.container{
+    width: 1670px;
+    height: auto;
+    background-color: #F5F5F5;
+    padding-left: 125px;
+    padding-right: 125px;
+}
+
+.h1{
+    height: 52px;
+    display: flex;
+    background-color: #F5F5F5;
+    justify-content: space-between;
+}
+
+.h1sub1{
+    display: flex;
+    flex-direction: row;
+    height: 31px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.h1sub2{
+    display: flex;
+    flex-direction: row;
+    height: 31px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.h1icn{
+    display: inline-flex;
+    width: 10;
+    height: 10;
+    margin-left: 5px;
+
+}
+
+.h2{
+    height: 80px;
+    display: flex;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    background-color: white;
+    justify-content: space-between;
+}
+
+.h2sub{
+    width: 1227px;
+    height: 28px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 1227px;
+  }
+  
+  li {
+    float: left;
+    display: inline-flex;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 25px 16px;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 0.03em;
+    justify-content: space-evenly;
+  }
+
+  .banner{
+    width: 1670px;
+    border-radius: 6px;
+  }
+
+  .btext{
+    position: absolute;
+    width: 520px;
+    height: 160px;
+    left: 284px;
+    top: 321px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 122.52%;
+    /* or 80px */
+    letter-spacing: 0.02em;
+    color: #211E1E;
+
+
+  }
+
+  .btextsub{
+    /* Fastest-Growing Multi Speciality Hospital in South Kerala */
+
+    position: absolute;
+    width: 459px;
+    height: 80px;
+    left: 284px;
+    top: 511px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 180%;
+    /* or 40px */
+    letter-spacing: 0.02em;
+
+    /* Dark */
+    color: #211E1E;
+
+  }
+
+  .bsub{
+    position: absolute;
+    width: 437px;
+    height: 59px;
+    left: 284px;
+    top: 625px;
+
+
+  }
+
+  .bbtn{
+    /* Rectangle 7 */
+
+    position: absolute;
+    width: 238px;
+    height: 59px;
+    left: 284px;
+    top: 625px;
+
+    /* Green */
+    background: #17C1A3;
+    border-radius: 6px;
+
+
+  }
+
+  .bbtext{
+    /* Book an Appointment */
+
+    position: absolute;
+    width: 186px;
+    height: 32px;
+    left: 310px;
+    top: 615px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 180%;
+    /* or 32px */
+    text-align: center;
+
+    color: #FFFFFF;
+
+
+  }
+
+  .bsub2{
+    position: absolute;
+    width: 149px;
+    height: 33.5px;
+    left: 572px;
+    top: 638px;
+
+
+  }
+
+  .b1{
+    /* Group 48 */
+
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    left: 572px;
+    top: 640.5px;
+
+
+  }
+
+  .b2{
+    /* Doctors Talk */
+
+    position: absolute;
+    width: 107px;
+    height: 32px;
+    left: 614px;
+    top: 638px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    /* or 32px */
+    text-decoration-line: underline;
+
+    /* Dark */
+    color: #211E1E;
+
+  }
+
+  .form-container{
+    /* Group 115 */
+
+    position: absolute;
+    width: 1432px;
+    height: 284px;
+    left: 244px;
+    background-color: white;
+    top: 806px;
+    box-shadow: 2px 2px 4px 4px rgba(128, 128, 128, 0.584);
+
+
+  }
+
+  .formtext{
+    /* Book an Appointment */
+
+    position: absolute;
+    width: 213px;
+    height: 36px;
+    left: 20px;
+    top: 20px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 180%;
+    /* identical to box height, or 36px */
+    letter-spacing: 0.01em;
+
+    /* Dark */
+    color: #211E1E;
+
+
+  }
+
+  .form{
+    position: absolute;
+    left: 40px;
+    top: 60px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    justify-content: space-evenly;
+
+  }
+
+  .field{
+    position: relative;
+    width: 437px;
+    height: 71px;
+  }
+
+  .dept{
+    /* Group 155 */
+
+    position: absolute;
+    width: 1669px;
+    height: 681px;
+    left: 0px;
+    top: 1150px;
+  }
+
+  .dhead{
+    /* Our Departments */
+
+    position: absolute;
+    width: 266px;
+    height: 94px;
+    left: 126px;
+    top: 20px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 133.52%;
+    /* or 47px */
+    letter-spacing: 0.02em;
+
+    /* Dark */
+    color: #211E1E;
+  }
+
+  .arr1{
+    /* Arrow 1 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 52.66px;
+    height: 0px;
+    left: 1450px;
+    top: 20px;
+    opacity: 0.5;
+
+  }
+
+  .arr2{
+    /* Arrow 2 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 52.66px;
+    height: 0px;
+    left: 1550px;
+    top: 20px;
+
+  }
+
+  .dcon{
+    position: absolute;
+    width: 1669px;
+    height: 681px;
+    left: 126px;
+    top: 150px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+  }
+
+  .dcard{
+    /* Group 12 */
+
+    position: relative;
+    width: 529px;
+    height: 537px;
+
+  }
+
+  .dimg{
+
+    width: 529px;
+    height: 327px;
+    border-radius: 8px;
+
+  }
+
+  .ddetails{
+    width: 440px;
+    height: 170px;
+
+  }
+
+  .dname{
+    /* Hepatobiliary Surgery */
+
+width: 276px;
+height: 35px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 26px;
+line-height: 133.52%;
+color: #211E1E;
+
+
+  }
+
+  .ddes{
+    /* The Hepatobiliary and Transplantology Unit of GG Hospital offers a comprehensive... */
+width: 440px;
+height: 62px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 186%;
+/* or 33px */
+letter-spacing: 0.02em;
+
+/* Dark */
+color: #211E1E;
+
+
+  }
+
+  .dmore{
+    /* Read More */
+
+    width: 95px;
+    height: 33px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 186%;
+    /* or 33px */
+    letter-spacing: 0.02em;
+    text-decoration-line: underline;
+
+    color: #17C1A3;
+
+
+  }
+
+  .wcon{
+    /* Group 154 */
+
+    position: absolute;
+    width: 1669px;
+    height: 770px;
+    left: 126px;
+    top: 2000px;
+    background: #d6edfbc5;
+    ;
+
+  }
+
+  .wdet{
+    /* Group 127 */
+
+position: absolute;
+width: 471px;
+height: 405px;
+left: 1100px;
+top: 200px;
+
+
+  }
+
+  .whead{
+    /* Why GG Hospital */
+
+width: 350px;
+height: 47px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 133.52%;
+/* identical to box height, or 47px */
+letter-spacing: 0.02em;
+
+/* Dark */
+color: #211E1E;
+
+
+  }
+
+  .wbody{
+position: relative;
+width: 471px;
+height: 317px;
+margin-top: 10px;
+
+
+  }
+
+  .wline{
+    display: inline-flex;
+    width: 480px;
+    height: 37px;
+    padding-bottom: 10px;
+  }
+
+  .spclcon{
+    /* Group 142 */
+
+position: absolute;
+width: 1672px;
+height: 798px;
+left: 124px;
+top: 2900px;
+
+display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+
+  }
+
+  .spclhead{
+/* Meet Our Specialist */
+
+position: absolute;
+width: 349px;
+height: 47px;
+left: calc(50% - 349px/2 + 3.5px);
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 133.52%;
+/* identical to box height, or 47px */
+letter-spacing: 0.02em;
+
+/* Dark */
+color: #211E1E;
+
+
+  }
+
+  .spcldesc{
+    /* We have the best Doctors in GG */
+
+position: absolute;
+width: 302px;
+left: calc(50% - 349px/2 + 3.5px);
+margin-top: 60px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 133.52%;
+/* identical to box height, or 27px */
+text-align: center;
+
+/* Dark */
+color: #211E1E;
+
+opacity: 0.5;
+
+}
+
+.spclcard{
+position: relative;
+width: 380px;
+height: 555.59px;
+margin-top: 200px;
+
+}
+
+.spclimg{
+
+left: 6.46%;
+right: 73.75%;
+
+}
+
+.spclname{
+  /* Lisha Powell */
+
+left: 6.56%;
+right: 74.59%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 133.52%;
+/* identical to box height, or 40px */
+text-align: center;
+letter-spacing: 0.02em;
+
+/* Dark */
+color: #211E1E;
+
+
+}
+
+.spcldept{
+  /* ENT Specialists */
+
+left: 6.46%;
+right: 74.46%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 133.52%;
+/* identical to box height, or 27px */
+text-align: center;
+
+/* Dark */
+color: #211E1E;
+
+opacity: 0.5;
+
+}
+
+.spclbtn{
+
+width: 179px;
+height: 55px;
+margin-top: 30px;
+left: calc(50% - 349px/2 + 5px);
+
+/* Green */
+background: #17C1A3;
+border-radius: 6px;
+
+}
+
+.facilitycon{
+  /* Group 163 */
+
+  position: absolute;
+  width: 1669px;
+  height: 440px;
+  left: 127px;
+  top: 3950px;
+
+display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+
+}
+
+.facilityhead{
+  
+  position: absolute;
+  width: 436px;
+  height: 53px;
+  left: calc(50% - 436px/2 + 3.5px);
+  margin-top: 0px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 53.4px;
+  /* identical to box height, or 47px */
+  letter-spacing: 0.02em;
+  
+  /* Dark */
+  color: #211E1E;
+  
+  
+}
+
+.facilitycard{
+position: relative;
+width: 528px;
+height: 340px;
+margin-top: 150px;
+
+}
+
+.facilityimg{
+  width: 528px;
+  height: 340px;
+}
+
+.arr3{
+  /* Arrow 1 */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 52.66px;
+  height: 0px;
+  left: 1450px;
+  top: 60px;
+  opacity: 0.5;
+
+}
+
+.arr4{
+  /* Arrow 2 */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 52.66px;
+  height: 0px;
+  left: 1550px;
+  top: 60px;
+
+}
+
+.interest{
+  position: absolute;
+width: 1672px;
+height: 551px;
+left: 124px;
+top: 4600px;
+}
+
+.interestcon{
+
+position: absolute;
+width: 1672px;
+height: 551px;
+
+display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+
+
+}
+
+.interesthead{
+position: relative;
+width: 452px;
+height: 53px;
+left: calc(50% - 452px/2);
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 133.52%;
+/* or 53px */
+text-align: center;
+letter-spacing: 0.02em;
+
+/* Dark */
+color: #211E1E;
+
+
+}
+
+.interestcard{
+  /* Group 159 */
+
+position: relative;
+width: 529px;
+height: 454px;
+margin-top: 100px;
+
+}
+
+.interestimg{
+
+width: 526px;
+height: 308px;
+border-radius: 8px;
+
+}
+
+.idetails{
+  width: 440px;
+  height: 170px;
+
+}
+
+.iname{
+  /* Hepatobiliary Surgery */
+
+width: 276px;
+height: 35px;
+margin-top: 30px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 26px;
+line-height: 133.52%;
+color: #211E1E;
+
+
+}
+
+.ides{
+  /* The Hepatobiliary and Transplantology Unit of GG Hospital offers a comprehensive... */
+width: 526px;
+height: 62px;
+margin-top: 30px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 35.82px;
+/* or 33px */
+letter-spacing: 0.02em;
+
+/* Dark */
+color: #211E1E;
+
+
+}
+
+.imore{
+  /* Read More */
+
+  width: 95px;
+  height: 33px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 186%;
+  /* or 33px */
+  letter-spacing: 0.02em;
+  text-decoration-line: underline;
+
+  color: #17C1A3;
+
+
+}
+
+.bg{
+position: absolute;
+width: 1920px;
+height: 959px;
+left: 0px;
+top: 4900px;
+
+background: #EAF2FF;
+
+}
+
+.nl{
+
+position: absolute;
+width: 1657px;
+height: 324px;
+left: 126px;
+top: 5400px;
+background-color: white;
+background-image: url(images/Mask.png);
+
+}
+
+.nc{
+
+position: relative;
+width: 1424px;
+height: 90px;
+top: 100px;
+left: 100px;
+justify-content: space-between;
+
+}
+
+.nh{
+  /* Subscribe our Newsletter Sign up */
+
+position: absolute;
+width: 330px;
+height: 90px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 149.02%;
+/* or 45px */
+letter-spacing: 0.02em;
+
+/* Dark */
+color: #211E1E;
+
+
+}
+
+.nf{
+  /* Group 60 */
+
+position: absolute;
+width: 576px;
+height: 64px;
+left: 800px;
+display: inline-flex;
+
+}
+
+.nb{
+  width: 179px;
+height: 55px;
+margin-top: 10px;
+margin-left: 10px;
+color: white;
+
+/* Green */
+background: #17C1A3;
+border-radius: 6px;
+}
+
+.ft{
+
+position: absolute;
+width: 1923px;
+height: 554px;
+left: -3px;
+top: 5850px;
+
+}
+
+.fcon{
+  position: absolute;
+  width: 1431;
+  height: 500;
+  margin-left: 250px;
+  margin-top: 100px;
+}
+
+.fimg{
+  /* image 16 */
+
+position: absolute;
+width: 293px;
+height: 76px;
+
+}
+
+.fdesc{
+  /*  */
+
+position: absolute;
+width: 375px;
+height: 81px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 194.5%;
+/* or 27px */
+
+color: #000000;
+
+opacity: 0.7;
+
+}
+
+.fh{
+  /* About GG */
+
+position: absolute;
+width: 90px;
+height: 51px;
+margin-top: -80px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 282.5%;
+/* identical to box height, or 51px */
+
+color: #000000;
+
+
+
+}
+
+.fc{
+  position: absolute;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+  left: 800px;
+}
+
+.c{
+  position: relative;
+  width: 70;
+  height: 50;
+}
+
+.fh1{
+  /* About GG */
+
+position: absolute;
+width: 90px;
+height: 51px;
+margin-top: -80px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 282.5%;
+/* identical to box height, or 51px */
+
+color: #000000;
+
+
+
+}
+
+.fc1{
+  position: absolute;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+  left: 1100px;
+}
+
+.c1{
+  position: relative;
+  text-overflow: ellipsis;
+  width: 500;
+  height: 50;
+}
+
+.last{
+  /* Group 81 */
+
+position: absolute;
+display: inline-flex;
+width: 1920px;
+height: 95.29px;
+left: 126px;
+top: 400px;
+
+}
+
+.addr{
+  /* Group 79 */
+
+position: absolute;
+display: inline-flex;
+width: 374.18px;
+height: 62px;
+left: 126px;
+top: 0px;
+
+
+}
+
+.mob{
+  /* Group 73 */
+
+position: absolute;
+display: inline-flex;
+width: 300px;
+height: 62px;
+left: 720px;
+
+
+}
+
+.em{
+  /* Group 78 */
+
+position: absolute;
+display: inline-flex;
+width: 225px;
+height: 62px;
+left: 1250px;
+
+
+}
